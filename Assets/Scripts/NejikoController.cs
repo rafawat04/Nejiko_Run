@@ -57,8 +57,7 @@ public class NejikoController : MonoBehaviour
         else
         {
 
-        
-
+    
         //Z方向に常に前進させる
         float acceleratedZ = moveDirection.z + (accelerationZ * Time.deltaTime);
         moveDirection.z = Mathf.Clamp(acceleratedZ,0,speedZ);
